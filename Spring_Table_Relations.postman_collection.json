@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "47b0cdb8-87bf-4a4c-9647-673a69af2a5f",
+		"name": "Spring Table Relaions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Employee Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/spring-table-relation/1/employee-details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"spring-table-relation",
+						"1",
+						"employee-details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Assign Projects",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/spring-table-relation/employeeId/1/projectId/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"spring-table-relation",
+						"employeeId",
+						"1",
+						"projectId",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
